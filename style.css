@@ -1,0 +1,110 @@
+html {
+	background-color: black;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.background {
+	height: 80vh;
+	width: 50vw;
+	border-radius: 25px;
+	padding: 0;
+	background: #926EC7; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, #926EC7, #CC9AA2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #926EC7, #CC9AA2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #926EC7, #CC9AA2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #926EC7, #CC9AA2); /* Standard syntax (must be last) */
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.center {
+	height: 50vh;
+	width: 18vw;
+	position: relative;
+	border-radius: 15px;
+	box-shadow: 0px 11px 58px -5px rgba(0,0,0,0.48);
+}
+
+.photo {
+	height: 35vh;
+	background: url('SF.jpg') no-repeat;
+	position: relative;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	background-size: cover;
+
+}
+
+.layer {
+    background-color: rgba(241, 104, 185, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.layer p {
+	position: absolute;
+	color: #E83895;
+	font-weight: 100;
+	font-size: 80px;
+
+}
+.soleil {
+	position: absolute;
+	border-radius: 50px;
+	background-color: #fff;
+	height: 100px;
+	width: 100px;
+	top: 30vh;
+	left: 6.5vw;
+	justify-content: center;
+	box-shadow: 0px 11px 21px -8px rgba(0,0,0,0.48);
+
+
+}
+i {
+
+	color: #F168B9;
+	position: absolute;
+	top: 26px;
+	left: 25px;
+
+}
+
+
+.name {
+	background-color: white;
+	height: 15vh;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+.name p {
+	margin: 0px;
+	color: #55595F;
+	text-transform: uppercase;
+	font-weight: bold;
+	
+}
+
+.name p:first-child {
+		font-size: 20px;
+		font-weight: bolder;
+}
